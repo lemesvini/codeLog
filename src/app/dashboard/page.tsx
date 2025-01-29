@@ -17,7 +17,8 @@ export default function Dashboard() {
   useEffect(() => {
     const handleAuth = () => {
       if (!auth.currentUser) {
-        router.push("/");
+        // router.push("/");
+        console.log('not logged in!')
       }
     };
 
